@@ -45,7 +45,7 @@ const FinancialServicesPage: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-light text-slate-800 mb-6 leading-tight">
-                Financial Services
+                Banking Services
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
                   Technology
                 </span>
@@ -56,7 +56,7 @@ const FinancialServicesPage: React.FC = () => {
               <Link to="/contact">
                 <InteractiveButton size="large">
                   <DollarSign className="w-5 h-5 mr-2" />
-                  Secure Your Financial Systems
+                  Secure Your Banking Systems
                 </InteractiveButton>
               </Link>
             </div>
@@ -76,17 +76,17 @@ const FinancialServicesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-light text-slate-800 mb-6">
-              Why Financial Institutions Trust Us
+              Why Banking Institutions Trust Us
             </h2>
             <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto">
-              Specialized financial technology solutions that prioritize security, compliance, and customer experience.
+              Specialized Banking technology solutions that prioritize security, compliance, and customer experience.
             </p>
           </div>
 
           <div className="mb-16">
             <div className="max-w-4xl mx-auto">
               <p className="text-lg font-light text-gray-700 leading-relaxed mb-6">
-                The financial services industry operates in one of the most heavily regulated and security-conscious environments, where trust, compliance, and operational excellence are paramount. Our financial technology solutions are built with deep understanding of banking regulations, risk management requirements, and the critical need for robust security measures that protect both institutions and their customers from evolving cyber threats.
+                The Banking services industry operates in one of the most heavily regulated and security-conscious environments, where trust, compliance, and operational excellence are paramount. Our financial technology solutions are built with deep understanding of banking regulations, risk management requirements, and the critical need for robust security measures that protect both institutions and their customers from evolving cyber threats.
               </p>
               <p className="text-lg font-light text-gray-700 leading-relaxed mb-6">
                 We specialize in developing and implementing technology solutions that help financial institutions navigate complex regulatory landscapes including PCI-DSS, SOX, Basel III, and other industry-specific requirements. Our expertise spans traditional banking systems, fintech innovations, payment processing platforms, and risk management solutions that enable financial institutions to operate efficiently while maintaining the highest standards of security and compliance.
@@ -115,10 +115,10 @@ const FinancialServicesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-light text-slate-800 mb-6">
-              Our Financial Services Solutions
+              Our Banking Services Solutions
             </h2>
             <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto">
-              Comprehensive financial technology solutions designed for modern banking and financial institutions.
+              Comprehensive Banking technology solutions designed for modern banking and financial institutions.
             </p>
           </div>
 

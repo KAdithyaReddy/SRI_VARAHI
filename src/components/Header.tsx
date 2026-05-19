@@ -29,9 +29,11 @@ const Header: React.FC = () => {
 
   const industries = [
     { name: 'Healthcare', href: '/industries/healthcare' },
-    { name: 'Financial Services', href: '/industries/financial-services' },
+    { name: ' Banking Services', href: '/industries/financial-services' },
     { name: 'Professional Services', href: '/industries/professional-services' },
     { name: 'Retail', href: '/industries/retail' },
+    { name: 'Insurance ', href: '/industries/insurance-services' },
+        { name: 'Manufacturing ', href: '/industries/Manufacturing' }
 
   ];
 

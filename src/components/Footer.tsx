@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
   <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
   
   <span className="leading-8">
-    P.No 33-34, Beta House, Mithila Nagar, Kukatpally,
+    P.No 33-34, Beta One Palace, Mithila Nagar, Kukatpally,
     Pragatinagar, Hyd, Hyderabad - 500090, Telangana
   </span>
 </div>

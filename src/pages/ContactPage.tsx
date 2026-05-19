@@ -9,7 +9,7 @@ const ContactPage: React.FC = () => {
       icon: Phone,
       title: "Phone",
       details: "+91 91542 79226",
-      description: "Mon-Fri 9AM-5PM CST"
+      description: "Mon-Fri 9AM-5PM IST"
     },
     {
       icon: Mail,
@@ -20,7 +20,7 @@ const ContactPage: React.FC = () => {
     {
       icon: MapPin,
       title: "Office",
-      details: "P.No 33-34, Beta House, Mithila Nagar, Kukatpally, Pragatinagar, Hyd, Hyderabad- 500090, Telangana",
+      details: "P.No 33-34, Beta One Palace, Mithila Nagar, Kukatpally, Pragatinagar, Hyd, Hyderabad- 500090, Telangana",
       description: "Available for on-site visits"
     },
     {
