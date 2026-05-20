@@ -33,7 +33,7 @@ import GovernmentPage from './pages/industries/GovernmentPage';
 
 function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+ <Router>
       <div className="min-h-screen bg-white font-['Inter'] font-light text-gray-600 overflow-x-hidden">
         
         <Header />
