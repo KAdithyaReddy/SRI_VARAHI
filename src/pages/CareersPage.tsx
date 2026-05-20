@@ -9,7 +9,7 @@ const CareersPage: React.FC = () => {
     {
       icon: Heart,
       title: "Health & Wellness",
-      description: "Comprehensive health insurance, dental, vision, and wellness programs to keep you and your family healthy."
+      description: "Comprehensive health insurance programs to keep you and your family healthy."
     },
     {
       icon: TrendingUp,
