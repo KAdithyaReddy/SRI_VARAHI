@@ -33,9 +33,9 @@ import GovernmentPage from './pages/industries/GovernmentPage';
 
 function App() {
   return (
- <Router>
+    <Router>
       <div className="min-h-screen bg-white font-['Inter'] font-light text-gray-600 overflow-x-hidden">
-        
+
         <Header />
 
         <main>
@@ -49,7 +49,10 @@ function App() {
             <Route path="/careers" element={<CareersPage />} />
             <Route path="/contact" element={<ContactPage />} />
 
-            {/* Service Routes */}
+            {/* ========================= */}
+            {/* SERVICE ROUTES */}
+            {/* ========================= */}
+
             <Route
               path="/services/digital-transformation"
               element={<DigitalTransformationPage />}
@@ -90,7 +93,10 @@ function App() {
               element={<GlobalCapabilityPage />}
             />
 
-            {/* Industry Routes */}
+            {/* ========================= */}
+            {/* INDUSTRY ROUTES */}
+            {/* ========================= */}
+
             <Route
               path="/industries/healthcare"
               element={<HealthcarePage />}

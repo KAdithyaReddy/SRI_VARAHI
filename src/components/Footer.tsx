@@ -35,13 +35,60 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-xl font-bold mb-6">Services</h4>
             <ul className="space-y-3 text-gray-300">
-              <li><Link to="/services" className="hover:text-cyan-400 transition-colors duration-300">Digital Transformation</Link></li>
-              <li><Link to="/services" className="hover:text-cyan-400 transition-colors duration-300">Data Engineering</Link></li>
-              <li><Link to="/services" className="hover:text-cyan-400 transition-colors duration-300">Analytics & Intelligence</Link></li>
-              <li><Link to="/services" className="hover:text-cyan-400 transition-colors duration-300">AI Solutions</Link></li>
-              <li><Link to="/services" className="hover:text-cyan-400 transition-colors duration-300">Staff Augmentation</Link></li>
-              <li><Link to="/services" className="hover:text-cyan-400 transition-colors duration-300">Managed Services</Link></li>
-            </ul>
+  <li>
+    <Link 
+      to="/services/digital-transformation" 
+      className="hover:text-cyan-400 transition-colors duration-300"
+    >
+      Digital Transformation
+    </Link>
+  </li>
+
+  <li>
+    <Link 
+      to="/services/data-engineering" 
+      className="hover:text-cyan-400 transition-colors duration-300"
+    >
+      Data Engineering
+    </Link>
+  </li>
+
+  <li>
+    <Link 
+      to="/services/analytics-intelligence" 
+      className="hover:text-cyan-400 transition-colors duration-300"
+    >
+      Analytics & Intelligence
+    </Link>
+  </li>
+
+  <li>
+    <Link 
+      to="/services/ai-solutions" 
+      className="hover:text-cyan-400 transition-colors duration-300"
+    >
+      AI Solutions
+    </Link>
+  </li>
+
+  <li>
+    <Link 
+      to="/services/staff-augmentation" 
+      className="hover:text-cyan-400 transition-colors duration-300"
+    >
+      Staff Augmentation
+    </Link>
+  </li>
+
+  <li>
+    <Link 
+      to="/services/managed-services" 
+      className="hover:text-cyan-400 transition-colors duration-300"
+    >
+      Managed Services
+    </Link>
+  </li>
+</ul>
           </div>
 
           {/* Company */}
