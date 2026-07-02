@@ -8,7 +8,7 @@ const ContactPage: React.FC = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: "+91 91542 79226",
+      details: "",
       description: "Mon-Fri 9AM-5PM IST"
     },
     {
@@ -68,7 +68,7 @@ const ContactPage: React.FC = () => {
   <a href="tel:+919154279226" className="block w-full">
     <InteractiveButton size="large" className="w-full">
       <Phone className="w-5 h-5 mr-2" />
-      Call +91 91542 79226
+    
     </InteractiveButton>
   </a>
 
@@ -186,7 +186,7 @@ const ContactPage: React.FC = () => {
            <a href="tel:+919154279226">
   <InteractiveButton size="large" variant="light">
     <Phone className="w-5 h-5 mr-2" />
-    Call +91 91542 79226
+   
   </InteractiveButton>
 </a>
 
